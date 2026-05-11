@@ -5,7 +5,7 @@
         { name: "Plan Basico", price: "$200 UYU", features: ["6 GB de datos", "60 minutos de voz", "70 SMS"], validity: "35 días", badge: "Recomendado", icon: "⭐" },
         { name: "Plan Epico", price: "$500 UYU", features: ["14 GB de datos", "160 minutos de voz","180 SMS"], validity: "35 días", badge: "Más Popular", icon: "⭐ " },
       { name: "Plan Legendario", price: "$1000 UYU", features: ["28 GB de datos", "320 minutos de voz","360 SMS"], validity: "35 días", badge: "Más Popular", icon: "⭐ " },
-      { name: "Promo Internacional", price: "$1500 UYU", features: ["6000 de saldo principal", "Internet ilimitado de 12pm a 7am"], validity: "30 días", badge: "Más Popular", icon: "⭐ " },
+//      { name: "Promo Internacional", price: "$1500 UYU", features: ["6000 de saldo principal", "Internet ilimitado de 12pm a 7am"], validity: "30 días", badge: "Más Popular", icon: "⭐ " },
 
      
      
