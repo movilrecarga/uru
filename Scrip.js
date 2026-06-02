@@ -1,10 +1,11 @@
+
     // ---------- Datos de los planes ----------
     const plansData = [
       //  { name: "Plan Básico", price: "$100 UYU", features: ["2 GB de datos", "15 minutos de voz", "20 SMS"], validity: "35 días", badge: "Más económico", icon: "📱" },
       //  { name: "Plan Medio", price: "$150 UYU", features: ["4 GB de datos", "35 minutos de voz", "40 SMS"], validity: "35 días", badge: "Más vendido", icon: "🔥" },
-        { name: "Plan Basico", price: "$200 UYU", features: ["6 GB de datos", "60 minutos de voz", "70 SMS"], validity: "35 días", badge: "Recomendado", icon: "⭐" },
-        { name: "Plan Epico", price: "$500 UYU", features: ["14 GB de datos", "160 minutos de voz","180 SMS"], validity: "35 días", badge: "Más Popular", icon: "⭐ " },
-      { name: "Plan Legendario", price: "$1000 UYU", features: ["28 GB de datos", "320 minutos de voz","360 SMS"], validity: "35 días", badge: "Más Popular", icon: "⭐ " },
+        { name: "Plan Basico", price: "$140 UYU", features: ["6 GB de datos", "60 minutos de voz", "70 SMS"], validity: "35 días", badge: "Recomendado", icon: "⭐" },
+        { name: "Plan Epico", price: "$280 UYU", features: ["12 GB de datos", "120 minutos de voz","140 SMS"], validity: "35 días", badge: "Más Popular", icon: "⭐ " },
+      { name: "Plan Legendario", price: "$420 UYU", features: ["18 GB de datos", "180 minutos de voz","210 SMS"], validity: "35 días", badge: "Más Popular", icon: "⭐ " },
 //      { name: "Promo Internacional", price: "$1500 UYU", features: ["6000 de saldo principal", "Internet ilimitado de 12pm a 7am"], validity: "30 días", badge: "Más Popular", icon: "⭐ " },
 
      
