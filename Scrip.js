@@ -69,7 +69,7 @@
         message += `📋 *Beneficios:* ${featuresText}%0A`;
         message += `⏳ *Vigencia:* ${plan.validity}%0A%0A`;
         message += `Quedo atento a los pasos de pago.`;
-        const whatsappNumber = '5355462081'; // Cambia por tu número
+        const whatsappNumber = '59896038426'; // Cambia por tu número
         window.open(`https://wa.me/${whatsappNumber}?text=${message}`, '_blank');
     }
 
