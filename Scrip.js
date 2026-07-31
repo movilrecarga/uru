@@ -3,9 +3,9 @@
     const plansData = [
       //  { name: "Plan Básico", price: "$100 UYU", features: ["2 GB de datos", "15 minutos de voz", "20 SMS"], validity: "35 días", badge: "Más económico", icon: "📱" },
       //  { name: "Plan Medio", price: "$150 UYU", features: ["4 GB de datos", "35 minutos de voz", "40 SMS"], validity: "35 días", badge: "Más vendido", icon: "🔥" },
-        { name: "Plan Basico", price: "$100 UYU", features: ["6 GB de datos", "60 minutos de voz", "70 SMS"], validity: "35 días", badge: "Recomendado", icon: "⭐" },
-        { name: "Plan Epico", price: "$200 UYU", features: ["12 GB de datos", "120 minutos de voz","140 SMS"], validity: "35 días", badge: "Más Popular", icon: "⭐ " },
-      { name: "Plan Legendario", price: "$300 UYU", features: ["18 GB de datos", "180 minutos de voz","210 SMS"], validity: "35 días", badge: "Más Popular", icon: "⭐ " },
+        { name: "Plan Basico", price: "$100 UYU", saldo: "360", features: [6 GB de datos", "60 minutos de voz", "70 SMS"], validity: "35 días", badge: "Recomendado", icon: "⭐" },
+        { name: "Plan Epico", price: "$200 UYU", saldo: "720", features: [12 GB de datos", "120 minutos de voz","140 SMS"], validity: "35 días", badge: "Más Popular", icon: "⭐ " },
+      { name: "Plan Legendario", price: "$300 UYU", saldo: "1080", features: [18 GB de datos", "180 minutos de voz","210 SMS"], validity: "35 días", badge: "Más Popular", icon: "⭐ " },
 //      { name: "Promo Internacional", price: "$1500 UYU", features: ["6000 de saldo principal", "Internet ilimitado de 12pm a 7am"], validity: "30 días", badge: "Más Popular", icon: "⭐ " },
 
      
@@ -65,6 +65,7 @@
         let featuresText = plan.features.join(', ');
         let message = `Hola, quiero solicitar el plan *${plan.name}* para recarga a Cuba.%0A%0A`;
         message += `📱 *Número a recargar:* ${phone}%0A`;
+        message += `💲 *Saldo a recargar:* ${plan.price}%0A`;
         message += `💰 *Precio del plan:* ${plan.price}%0A`;
         message += `📋 *Beneficios:* ${featuresText}%0A`;
         message += `⏳ *Vigencia:* ${plan.validity}%0A%0A`;
